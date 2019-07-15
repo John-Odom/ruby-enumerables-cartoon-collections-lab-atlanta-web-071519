@@ -1,6 +1,6 @@
 def roll_call_dwarves(names)
   names.sort!
-  names.each_with_index{|dwarf_names| puts ""}
+  names.each_with_index{|dwarf_names, index| puts "#{index +1} #{dwarf_names}"}
 end
 
 def summon_captain_planet(planeteer_calls)
